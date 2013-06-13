@@ -4,6 +4,8 @@
  */
 package elelmezes;
 
+import javax.swing.JOptionPane;
+
 /**
  *
  * @author alex
@@ -15,5 +17,7 @@ public class Elelmezes {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        // Ide fog kerülni a program indító kódja
+        JOptionPane.showMessageDialog(null, "Indul az Élelmezés program!");
     }
 }
